@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #D8D8D8;
+}
+#footer{
+  background-color: rgba(0, 0, 0, 0.993);
+  display: block;
+}
+#footer>div{
+  width: 100%;
+  margin-bottom: 0;
+}
+#footer{
+  width: 100%;
+}
+#banner{
+  background-color: rgba(0, 0, 0, 0.993);
+}
+#banner>div{
+  width: 70%;
+}
+#banner{
+  width: 100%;
+  position:fixed;
+}
+li>a{
+  margin: 0 5px;
+}
+#about>div,
+#education>div,
+{
+  margin-top: 100px;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:space-between;
+  align-items:center;
+}
+#about>div>.thumb-img {
+  border-radius: 100%;
+  margin: 0 auto;
+  width: 200px;
+  order: 0;
+  vertical-align: text-bottom;
+}
+#about>div>p,
+#education>div>p,
+#skills {
+  font-family: lobster;
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  margin: auto; 
+  width: 500px;
+}
+
+#about,
+#education,
+#skills{
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color:#A4A4A4;
+  margin:0 auto;
+  padding:20px 20px;
+  width:70%;  
+}
+div>p{
+  font-family: lobster;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin: auto;  
+}
+#skills>div{
+  margin-top: 100px;
+  display: inline-flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+
+}
+.image-container>img{
+  border: 1px solid black;
+  border-radius: 10%;
+  height: 150px;
+  margin : 10px 10px;
+}
+.image-container>img:hover{
+  
+}
